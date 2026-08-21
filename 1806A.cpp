@@ -23,7 +23,7 @@ int main() {
             continue;
         }
         
-        dif+=abs(x2-x1);
+        dif=dif+abs(x2-x1);
         cout<<dif<<endl;
         
         
