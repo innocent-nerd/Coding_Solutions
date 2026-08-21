@@ -16,7 +16,7 @@ int main() {
         }
 
         int dif=y2-y1;
-         x1=x1+dif;
+         x1+=dif;
 
         if (x1<x2){
             cout<<"-1\n";
